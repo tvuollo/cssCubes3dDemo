@@ -37,7 +37,8 @@ const Cube = ({
                 width: size,
                 position: "absolute",
                 left: left,
-                top: top
+                top: top,
+                transformStyle: "preserve-3d",
             }}
         >
             <CubeSide height={size} width={size} styles={{transform:"translateZ("+size/2+"px)"}} />
